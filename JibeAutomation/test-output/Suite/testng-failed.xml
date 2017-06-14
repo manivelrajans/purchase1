@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="technical_Admin.AlarmEffectLibraryTest">
+        <methods>
+          <include name="initialioseBrowser"/>
+          <include name="EditEffect"/>
+          <include name="AddNewEffect"/>
+          <include name="Delete"/>
+          <include name="AlarmEffects"/>
+          <include name="closeBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- technical_Admin.AlarmEffectLibraryTest -->
+      <class name="technical_Admin.AlarmUnitLibraryTest">
+        <methods>
+          <include name="initialioseBrowser"/>
+          <include name="AddNewUnit"/>
+          <include name="EditUnit"/>
+          <include name="AlarmUnit"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="DeleteUnit"/>
+          <include name="PMSAlarmUnit"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- technical_Admin.AlarmUnitLibraryTest -->
+      <class name="technical_Admin.PMSAccessTest">
+        <methods>
+          <include name="initialioseBrowser"/>
+          <include name="AddPMSAccess"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="EditPMSAccess"/>
+          <include name="Delete"/>
+          <include name="closeBrowser"/>
+          <include name="PMSAccess"/>
+        </methods>
+      </class> <!-- technical_Admin.PMSAccessTest -->
+      <class name="technical_Admin.InspectionTypeTest">
+        <methods>
+          <include name="initialioseBrowser"/>
+          <include name="EditInspection"/>
+          <include name="DeleteInspection"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="AddInspection"/>
+          <include name="InspectionType"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- technical_Admin.InspectionTypeTest -->
+      <class name="technical_Admin.WorklistAssignerListTest">
+        <methods>
+          <include name="initialioseBrowser"/>
+          <include name="AddWorklistAssigner"/>
+          <include name="DeleteAssignorName"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- technical_Admin.WorklistAssignerListTest -->
+      <class name="technical_Admin.FunctionLibraryTest">
+        <methods>
+          <include name="initialioseBrowser"/>
+          <include name="AddFunction"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="FunctionsLibrary"/>
+          <include name="DeleteFunction"/>
+          <include name="closeBrowser"/>
+          <include name="EditFunction"/>
+        </methods>
+      </class> <!-- technical_Admin.FunctionLibraryTest -->
+      <class name="technical_Admin.WorklistAccessRightsTest">
+        <methods>
+          <include name="initialioseBrowser"/>
+          <include name="AddworklistAccess"/>
+          <include name="EditworklistAccess"/>
+          <include name="WokrlistModule"/>
+          <include name="DeleteworklistAccess"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- technical_Admin.WorklistAccessRightsTest -->
+      <class name="technical_Admin.InspVesselAssignmentTest">
+        <methods>
+          <include name="initialioseBrowser"/>
+          <include name="SaveVesselAssignment1"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="closeBrowser"/>
+          <include name="SaveVesselAssignment"/>
+          <include name="VesselAssignment"/>
+        </methods>
+      </class> <!-- technical_Admin.InspVesselAssignmentTest -->
+      <class name="technical_Admin.SurveyCertificateSettingsTest">
+        <methods>
+          <include name="DeleteSurveyCertificate"/>
+          <include name="SubCategory"/>
+          <include name="SurveyCertificate"/>
+          <include name="SurveyDocType"/>
+          <include name="MainCategory"/>
+          <include name="closeBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="initialioseBrowser"/>
+          <include name="Survey"/>
+          <include name="SurveyAssign"/>
+          <include name="DeleteSurveyCategary"/>
+          <include name="CertificateAuthority"/>
+        </methods>
+      </class> <!-- technical_Admin.SurveyCertificateSettingsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

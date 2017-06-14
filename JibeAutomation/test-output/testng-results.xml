@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="109609" started-at="2017-06-14T04:38:13Z" finished-at="2017-06-14T04:40:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="109609" started-at="2017-06-14T04:38:13Z" finished-at="2017-06-14T04:40:02Z">
+      <class name="Purchase_CreateNewReq.CreateNewReqTest">
+        <test-method status="PASS" signature="initialioseBrowser()[pri:0, instance:Purchase_CreateNewReq.CreateNewReqTest@21baa903]" name="initialioseBrowser" is-config="true" duration-ms="13570" started-at="2017-06-14T10:07:59Z" finished-at="2017-06-14T10:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialioseBrowser -->
+        <test-method status="PASS" signature="beforeSu()[pri:0, instance:Purchase_CreateNewReq.CreateNewReqTest@21baa903]" name="beforeSu" is-config="true" duration-ms="239" started-at="2017-06-14T10:08:13Z" depends-on-methods="common_Function.WebDriverPass.initialioseBrowser" finished-at="2017-06-14T10:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSu -->
+        <test-method status="PASS" signature="createnewreqM()[pri:1, instance:Purchase_CreateNewReq.CreateNewReqTest@21baa903]" name="createnewreqM" duration-ms="109386" started-at="2017-06-14T10:08:13Z" finished-at="2017-06-14T10:10:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewreqM -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Purchase_CreateNewReq.CreateNewReqTest@21baa903]" name="afterMethod" is-config="true" duration-ms="209" started-at="2017-06-14T10:10:02Z" finished-at="2017-06-14T10:10:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createnewreqM status=SUCCESS method=CreateNewReqTest.createnewreqM()[pri:1, instance:Purchase_CreateNewReq.CreateNewReqTest@21baa903] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSu()[pri:0, instance:Purchase_CreateNewReq.CreateNewReqTest@21baa903]" name="afterSu" is-config="true" duration-ms="86" started-at="2017-06-14T10:10:02Z" finished-at="2017-06-14T10:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Purchase_CreateNewReq.CreateNewReqTest@21baa903]" name="closeBrowser" is-config="true" duration-ms="810" started-at="2017-06-14T10:10:03Z" depends-on-methods="Purchase_CreateNewReq.CreateNewReqTest.afterSu" finished-at="2017-06-14T10:10:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Purchase_CreateNewReq.CreateNewReqTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
